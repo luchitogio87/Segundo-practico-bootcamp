@@ -1,0 +1,78 @@
+import java.util.Scanner;
+
+class Main {
+	public static void main(String[] args) {
+		Scanner escaner = new Scanner(System.in);
+		// Mandar mensaje
+		System.out.println("Escribe un número:");
+		// Leer lo que se introduce
+		double numero = escaner.nextDouble();
+		// Comparar
+		if (numero == 0) {
+			System.out.println("El número es neutro");
+		} else if (numero < 0) {
+			System.out.println("El número es negativo");
+		} else {
+			System.out.println("El número es positivo");
+		}
+	}
+}
+
+
+
+class Main {
+	public static void main(String[] args) {
+  int contador = 0;
+  while(contador < 3); {
+  System.out.println(contador);
+  contador= contador +1;
+  }
+  }
+  }
+  
+  
+  class Main {
+	public static void main(String[] args) {
+   int contador = 0;
+   do { 
+   System.out.println(contador);
+  contador= contador +1;
+  }
+   while(contador < 3); {
+  System.out.println(contador);
+  }
+  }
+  }
+  
+  
+ class Main {
+	public static void main(String[] args) {
+  for(int buclefor =0; buclefor <3 buclefor = buclefor +1);
+  System.out.println(buclefor);
+  
+  
+  public class Main {
+    public static void main(String[] args) {
+        var estacion = "verano";
+        switch (estacion) {
+
+            case "verano":
+                System.out.println("es verano");
+                  break;
+            case "invierno":
+                System.out.println("es invierno");
+
+            case "primavera":
+                System.out.println("es primavera");
+
+            case "otoño":
+                System.out.println("es otoño");
+
+            default:
+                System.out.println(estacion);
+        }
+
+        }
+    }
+
+ 
